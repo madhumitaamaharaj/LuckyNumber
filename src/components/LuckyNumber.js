@@ -33,7 +33,7 @@ export default function LuckyNumber() {
           onChange={(e) => setNum(e.target.value)}
         />
         <button onClick={MatchNumber} className={styled.btn}>
-          Check Number
+        Match Number
         </button>
       </div>
     </div>
